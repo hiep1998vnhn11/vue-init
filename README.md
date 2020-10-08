@@ -1,30 +1,28 @@
-# vue-init
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+# First init for all project Vuejs 
+Many plugin and dependencies are used:
+### Vuetify.js
+https://vuetifyjs.com/en/
+component ex:
+```
+<v-app>
+<v-container>
+<v-app-bar>
+...
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### vuex
+https://vuex.vuejs.org/guide/
+auto import any module from '@/store/modules' folder
+
+### vue router
+https://router.vuejs.org/
+all router of project
+
+### lodash
+everything you need to work with string
+
+### vue-cookie
+for cookie, not allow localstorage....
+
+### vue-i18n
+for multi-language
