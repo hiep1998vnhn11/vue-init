@@ -6,8 +6,12 @@ import router from './router'
 import vuetify from '@/plugins/vuetify' // path to vuetify export
 import store from '@/store'
 import i18n from '@/plugins/i18n'
+import mixin from '@/utils/mixin'
+import axios from 'axios'
 
 Vue.config.productionTip = false
+Vue.mixin(mixin)
+axios.defaults.baseURL = process.env.VUE_APP_SERVER_BASE_URL
 
 /* eslint-disable no-new */
 new Vue({
